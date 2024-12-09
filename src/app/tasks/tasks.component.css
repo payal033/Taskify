@@ -52,6 +52,14 @@ ul {
   overflow: auto;
 }
 
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+#tasks::-webkit-scrollbar {
+  display: none;
+}
+
 @media (min-width: 768px) {
   h2 {
     font-size: 1.25rem;
